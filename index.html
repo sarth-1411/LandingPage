@@ -1,373 +1,711 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Sarth Patel</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    </head>
-    <body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarth Patel | Data Analytics Professional</title>
+    <meta name="description" content="Sarth Patel - Data Analytics Professional, Data Engineer and BI Analyst. Experience, projects, skills and contact details.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%231A1A2E'/%3E%3Cpath d='M20 62 L35 42 L50 57 L65 37 L80 52' stroke='%23FF6B6B' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="templatemo-sleeky-pro.css">
+<!-- TemplateMo 598 Sleeky Pro
+https://templatemo.com/tm-598-sleeky-pro
+-->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF6B6B"/>
+                            <stop offset="100%" style="stop-color:#7FFFD4"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" opacity="0.1"/>
+                    <path d="M20 60 L35 40 L50 55 L65 35 L80 50" stroke="url(#logoGradient)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="35" cy="40" r="3" fill="url(#logoGradient)"/>
+                    <circle cx="50" cy="55" r="3" fill="url(#logoGradient)"/>
+                    <circle cx="65" cy="35" r="3" fill="url(#logoGradient)"/>
+                    <rect x="25" y="65" width="50" height="15" rx="7" fill="url(#logoGradient)" opacity="0.3"/>
+                </svg>
+                <span class="logo-text">Sarth Patel</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
 
-        <section id="header">
-                <div class="inner">
-                    <span class="icon solid major fa-database"></span>
-                    <h1>Hi, I'm <strong>Sarth Patel</strong><br /> <h2>Data Analytics Professional | Data Engineer | BI Analyst</h2> <br>
-                    <div class="btn-container">
-                        <button
-                          class="btn btn-color-2"
-                          onclick="window.open('assets/SARTH PATEL RESUME.pdf')">
-                          Download CV
-                        </button>
-                    </div>
-                    <ul class="actions special">
-                        <li><a href="#one" class="button scrolly">Discover</a></li>
-                    </ul>
-            </section>
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero">
+        <div class="slider-container">
+            <div class="progress-ring">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
 
-        <section id="one" class="main style1">
-                <div class="container">
-                    <div class="row gtr-150">
-                        <div class="col-6 col-12-medium">
-                            <header class="major">
-                                <h2>About Me</h2>
-                            </header>
-                            <p>Hi, I am Sarth Patel. I am a Data Analytics Professional with a proven track record of delivering data-driven insights and technical solutions across the supply chain, retail, and finance sectors. I am adept at collaborating with non-technical stakeholders to translate complex business problems into scalable technical deliverables. My technical toolkit includes Power BI, Python, Microsoft Fabric, and Azure, with a specialized focus on data modeling and governance. Currently, I am a graduate student pursuing my Master of Science in Information Management (MSIM) at the University of Illinois Urbana-Champaign.</p>
-                            <p>Beyond coding and work, I am Manchester United, Max Verstappen and Roger Federer fan. I also enjoy gym, running, enjoying sunset and hiking. I strongly believe in the importance of diverse experiences beyond studying because learning comes from all aspects of life. I thrive on exploring new things, constantly seeking opportunities to learn and grow in every possible way!</p>
-                        </div>
-                        <div class="col-6 col-12-medium imp-medium">
-                            <span class="image fit"><img src="images/ProfileSP.jpeg" alt="Sarth Patel" /></span>
-                        </div>
+            <div class="slider-stage" id="sliderStage"></div>
+            <!-- Slides (images, text and button) are defined in templatemo-sleeky-scripts.js -->
+            <div class="text-overlay" id="textOverlay">
+                <div class="slide-text">
+                    <h1 class="slide-title" id="slideTitle">Hi, I'm Sarth Patel</h1>
+                    <p class="slide-description" id="slideDescription">Data Analytics Professional | Data Engineer | BI Analyst</p>
+                </div>
+                <a class="slide-cta" id="slideCta" href="assets/SARTH%20PATEL%20RESUME.pdf" target="_blank" rel="noopener">Download CV</a>
+            </div>
+
+            <button class="nav-arrow prev" id="prevArrow" aria-label="Previous"></button>
+            <button class="nav-arrow next" id="nextArrow" aria-label="Next"></button>
+
+            <div class="controls">
+                <button class="control-btn play-pause-btn" id="playPauseBtn" title="Play/Pause" aria-label="Play or pause the slideshow">
+                    <span class="play-icon"></span>
+                    <span class="pause-icon"></span>
+                </button>
+            </div>
+
+            <div class="dots" id="dots"></div>
+            <div class="thumbnails-container" id="thumbnails"></div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section intro">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Data Analytics Professional | Data Engineer | BI Analyst</p>
+            </div>
+
+            <div class="intro-grid">
+                <div class="intro-text">
+                    <p>Hi, I am Sarth Patel. I am a Data Analytics Professional with a proven track record of delivering data-driven insights and technical solutions across the supply chain, retail, and finance sectors. I am adept at collaborating with non-technical stakeholders to translate complex business problems into scalable technical deliverables. My technical toolkit includes Power BI, Python, Microsoft Fabric, and Azure, with a specialized focus on data modeling and governance. Currently, I am a graduate student pursuing my Master of Science in Information Management (MSIM) at the University of Illinois Urbana-Champaign.</p>
+                    <p>Beyond coding and work, I am a Manchester United, Max Verstappen and Roger Federer fan. I also enjoy the gym, running, hiking and watching the sunset. I strongly believe in the importance of diverse experiences beyond studying because learning comes from all aspects of life. I thrive on exploring new things, constantly seeking opportunities to learn and grow in every possible way!</p>
+                    <div class="intro-actions">
+                        <a href="assets/SARTH%20PATEL%20RESUME.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download CV</a>
+                        <a href="#projects" class="btn btn-outline">View Projects</a>
                     </div>
                 </div>
-            </section>
+                <div class="intro-photo">
+                    <img src="images/ProfileSP.jpeg" alt="Sarth Patel" width="1200" height="1600">
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="two" class="main style1">
-                <div class="container">
-                    <div class="row gtr-150">
-                        <div class="col-6 col-12-medium">
-                            <header class="major">
-                                <h2>My Education</h2>
-                            </header>
-                            <strong><h3>Master of Science in Information Management</h3></strong> <h4>University of Illinois Urbana Champaign</h4> <p>Courses: Information Consulting, Data Warehousing and Business Intelligence, Data, Models and Information</p> </div>
-                        <div class="col-6 col-12-medium imp-medium">
-                            <span class="image fit"><img src="images/uiuc.jpg" alt="UIUC" /></span>
-                        </div>
-                        <br>
-                        <div class="col-6 col-12-medium">
-                            <strong><h3>Bachelor of Technology in Computer Engineering</h3></strong> <h4>University of Mumbai, India</h4> <p>Courses: Advance Database Management Systems, Data Mining, Big Data Analytics, Machine Learning, Artificial Intelligence</p> </div>
-                        <div class="col-6 col-12-medium imp-medium">
-                            <span class="image fit"><img src="images/djsce.png" alt="Mumbai University" /></span>
-                        </div>
+    <!-- Experience Section -->
+    <section id="experience" class="section services">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Delivering data-driven insights and technical solutions across the supply chain, retail, and finance sectors.</p>
+            </div>
+
+            <div class="services-container">
+                <div class="services-tabs" role="tablist" aria-label="Roles">
+                    <div class="service-tab active" data-service="topbuild" role="tab" tabindex="0" aria-selected="true" aria-controls="topbuild">
+                        <img class="service-tab-logo" src="images/topbuild_logo.png" alt="TopBuild logo">
+                        <h3>TopBuild</h3>
+                        <p>Data Analytics Intern &middot; May 2025 - Present</p>
+                    </div>
+
+                    <div class="service-tab" data-service="big" role="tab" tabindex="0" aria-selected="false" aria-controls="big">
+                        <img class="service-tab-logo" src="images/big_logo.jpg" alt="Business Intelligence Group logo">
+                        <h3>Business Intelligence Group</h3>
+                        <p>Technical Consultant &middot; Jan 2025 - May 2025</p>
+                    </div>
+
+                    <div class="service-tab" data-service="webomatic" role="tab" tabindex="0" aria-selected="false" aria-controls="webomatic">
+                        <img class="service-tab-logo" src="images/webomatic_logo.jpg" alt="Webomatic Softech logo">
+                        <h3>Webomatic Softech</h3>
+                        <p>Business Intelligence Analyst Intern &middot; Jun 2022 - Jan 2023</p>
                     </div>
                 </div>
-            </section>
 
-			<section id="experience" class="main style1 special">
-    <div class="container">
-        <header class="major">
-            <h2>Professional Experience</h2>
-        </header>
-        <div class="row gtr-150" style="text-align: left;">
-            
-            <div class="col-8 col-12-medium">
-                <strong><h3>Data Analytics Intern | TopBuild | U.S.A</h3></strong>
-                <h4>May 2025 - Present</h4>
-                <ul>
-                    <li><b>Census Reporting & Analytics: </b>Automated Census reporting pipeline using Python and Microsoft Fabric Lakehouse, delivering 6+ Power BI dashboards using DAX, reducing manual FP&A workload by 7+ hours weekly.</li>
-                    <li><b>Supply Chain Analytics: </b>Developed supply chain health dashboards to monitor inventory levels, tracking Inventory Turnover, Days of Supply (DOS), and Forecast Accuracy (MAPE) using advanced DAX to identify stockout risks and excess capital.</li>
-                    <li><b>Leadership Reporting: </b>Streamlined ad hoc and recurring leadership reporting for 400+ items, providing data-driven insights across multiple retail channels that improved visibility into Private Brand performance and supply chain bottlenecks.</li>
-                    <li><b>Governance: </b>Enhanced Power BI governance by deploying Row-Level Security (RLS) and a role matrix, ensuring 98% of users access permissions.</li>
-					<li><b>Agile Delivery: </b>Partnered with business stakeholders and project managers to gather functional requirements, translate them into Jira Epics and user stories, and validate solutions through iterative testing—ensuring reporting and application workflows aligned with business.</li>
-                </ul>
-            </div>
-            <div class="col-4 col-12-medium">
-                <span class="image fit" style="margin-bottom: 1em;"><img src="images/topbuild_logo.png" alt="TopBuild Logo" /></span>
-                <span class="image fit"><img src="images/topbuild_group.jpeg" alt="TopBuild Group Photo" /></span>
-            </div>
-            
-            <div class="col-12"><hr></div>
+                <div class="services-content">
+                    <div class="service-content active" id="topbuild" role="tabpanel">
+                        <div class="service-content-icon">🏗️</div>
+                        <p class="service-meta">TopBuild &middot; U.S.A &middot; May 2025 - Present</p>
+                        <h2>Data Analytics Intern</h2>
+                        <ul class="service-features">
+                            <li><strong>Census Reporting &amp; Analytics:</strong> Automated Census reporting pipeline using Python and Microsoft Fabric Lakehouse, delivering 6+ Power BI dashboards using DAX, reducing manual FP&amp;A workload by 7+ hours weekly.</li>
+                            <li><strong>Supply Chain Analytics:</strong> Developed supply chain health dashboards to monitor inventory levels, tracking Inventory Turnover, Days of Supply (DOS), and Forecast Accuracy (MAPE) using advanced DAX to identify stockout risks and excess capital.</li>
+                            <li><strong>Leadership Reporting:</strong> Streamlined ad hoc and recurring leadership reporting for 400+ items, providing data-driven insights across multiple retail channels that improved visibility into Private Brand performance and supply chain bottlenecks.</li>
+                            <li><strong>Governance:</strong> Enhanced Power BI governance by deploying Row-Level Security (RLS) and a role matrix, ensuring 98% of users access permissions.</li>
+                            <li><strong>Agile Delivery:</strong> Partnered with business stakeholders and project managers to gather functional requirements, translate them into Jira Epics and user stories, and validate solutions through iterative testing, ensuring reporting and application workflows aligned with business.</li>
+                        </ul>
+                    </div>
 
-            <div class="col-8 col-12-medium">
-                <strong><h3>Technical Consultant | Business Intelligence Group | Champaign, IL</h3></strong>
-                <h4>Jan 2025 - May 2025</h4>
-                <ul>
-                    <li><b>Reporting Infrastructure: </b>Delivered a 12% MoM sales increase by building reporting infrastructure from the ground up using Tableau and SQL to provide real-time insights into the product, marketing funnels, and business KPIs.</li>
-                    <li><b>A/B Testing: </b>Designed and implemented A/B experiments for products to improve the conversion rate by 19 basis points and reduce churn by 12 basis points.</li>
-                    <li><b>Process Optimization: </b>Automated repetitive data scrubbing tasks using VBA macros and advanced Power Query transformations, saving the department 15+ hours of manual work weekly.</li>
-                    <li><b>Reporting Framework: </b>Developed a unified reporting framework using XLOOKUP and INDEX/MATCH to consolidate data from multiple workbooks into a centralized master sheet for Pivot Table analysis.</li>
-                    <li><b>Predictive Modeling: </b>Built a logistic regression model to help the SEO team decide which keywords to target, resulting in a 15% lift in QoQ site visitors.</li>
-					<li><b>Query Tuning: </b>Optimized SQL Stored Procedures and Views by implementing Common Table Expressions (CTEs) and query tuning, reducing execution time by 40% to accelerate decision-making.</li>
-                </ul>
-            </div>
-            <div class="col-4 col-12-medium">
-                <span class="image fit" style="margin-bottom: 1em;"><img src="images/big_logo.jpg" alt="Business Intelligence Group Logo" /></span>
-                <span class="image fit"><img src="images/big_group.jpeg" alt="Business Intelligence Group Photo" /></span>
-            </div>
-            
-            <div class="col-12"><hr></div>
+                    <div class="service-content" id="big" role="tabpanel">
+                        <div class="service-content-icon">📈</div>
+                        <p class="service-meta">Business Intelligence Group &middot; Champaign, IL &middot; Jan 2025 - May 2025</p>
+                        <h2>Technical Consultant</h2>
+                        <ul class="service-features">
+                            <li><strong>Reporting Infrastructure:</strong> Delivered a 12% MoM sales increase by building reporting infrastructure from the ground up using Tableau and SQL to provide real-time insights into the product, marketing funnels, and business KPIs.</li>
+                            <li><strong>A/B Testing:</strong> Designed and implemented A/B experiments for products to improve the conversion rate by 19 basis points and reduce churn by 12 basis points.</li>
+                            <li><strong>Process Optimization:</strong> Automated repetitive data scrubbing tasks using VBA macros and advanced Power Query transformations, saving the department 15+ hours of manual work weekly.</li>
+                            <li><strong>Reporting Framework:</strong> Developed a unified reporting framework using XLOOKUP and INDEX/MATCH to consolidate data from multiple workbooks into a centralized master sheet for Pivot Table analysis.</li>
+                            <li><strong>Predictive Modeling:</strong> Built a logistic regression model to help the SEO team decide which keywords to target, resulting in a 15% lift in QoQ site visitors.</li>
+                            <li><strong>Query Tuning:</strong> Optimized SQL Stored Procedures and Views by implementing Common Table Expressions (CTEs) and query tuning, reducing execution time by 40% to accelerate decision-making.</li>
+                        </ul>
+                    </div>
 
-            <div class="col-8 col-12-medium">
-                <strong><h3>Business Intelligence Analyst Intern | Webomatic Softech Private Limited | India</h3></strong>
-                <h4>Jun 2022 - Jan 2023</h4>
-                <ul>
-                    <li><b>BI & Analytics: </b>Built a solution processing 20M+ records from AWS S3, designing a robust Star Schema and 5+ Power BI dashboards, enabling leadership to track KPIs across procurement and sales and identified over $50K in supply chain cost savings.</li>
-                    <li><b>Governance & Standards: </b>Led the design and implementation of company-wide BI reporting standards, supported by clear documentation and standardized templates that enabled consistent adoption, improved collaboration, and strengthened stakeholder trust in analytics.</li>
-                    <li><b>Paginated Reporting: </b>Developed parameterized Paginated Reports to allow regional managers to generate custom, print-ready sales performance snapshots and invoice-style ledger reports.</li>
-                    <li><b>Data Architecture & ETL: </b>Centralized employee and payroll data from MySQL, Excel, and CSV sources by staging in Amazon S3, automating AWS Glue ETL jobs to transform and load into AWS Redshift, ensuring data governance and quality.</li>
-                    <li><b>Reporting Automation: </b>Automated 8+ sales performance and revenue reports using SQL Server and Microsoft Report Builder, eliminating 30+ hours of manual reporting per week.</li>
-					<li><b>Data Quality: </b>Performed data validation checks and supported data quality initiatives by reconciling logistics records using Excel (SUMIFS, COUNTIFS, LOOKUPS) and SQL, ensuring governance standards were met.</li>
-                </ul>
-            </div>
-            <div class="col-4 col-12-medium">
-                <span class="image fit" style="margin-bottom: 1em;"><img src="images/webomatic_logo.jpg" alt="Webomatic Logo" /></span>
-            </div>
-
-        		</div>
-    		</div>
-		</section>
-
-        <section id="skills" class="main style1">
-                <div class="container">
-                    <header class="major">
-                        <h2>Skills & Certifications</h2>
-                    </header>
-                    <div class="row gtr-150">
-                        <div class="col-12 col-12-medium">
-                            <p><strong>Technical Toolkit:</strong> SQL, Power BI, Python, Microsoft Fabric, PowerApps, Jira, Confluence, Microsoft Excel, OracleEBS, Tableau, Qlik, Alteryx, Dbt, SAS, Statistics, SDLC, Agile/Scrum, Technical Documentation, Azure (Databricks, Data Factory, Form Recognizer), Snowflake </p>
-                            <p><strong>Certifications:</strong> Microsoft Power BI Desktop for Business Intelligence | Data Visualisation: Empowering Business with Effective Insights </p>
-                        </div>
+                    <div class="service-content" id="webomatic" role="tabpanel">
+                        <div class="service-content-icon">🗂️</div>
+                        <p class="service-meta">Webomatic Softech Private Limited &middot; India &middot; Jun 2022 - Jan 2023</p>
+                        <h2>Business Intelligence Analyst Intern</h2>
+                        <ul class="service-features">
+                            <li><strong>BI &amp; Analytics:</strong> Built a solution processing 20M+ records from AWS S3, designing a robust Star Schema and 5+ Power BI dashboards, enabling leadership to track KPIs across procurement and sales and identified over $50K in supply chain cost savings.</li>
+                            <li><strong>Governance &amp; Standards:</strong> Led the design and implementation of company-wide BI reporting standards, supported by clear documentation and standardized templates that enabled consistent adoption, improved collaboration, and strengthened stakeholder trust in analytics.</li>
+                            <li><strong>Paginated Reporting:</strong> Developed parameterized Paginated Reports to allow regional managers to generate custom, print-ready sales performance snapshots and invoice-style ledger reports.</li>
+                            <li><strong>Data Architecture &amp; ETL:</strong> Centralized employee and payroll data from MySQL, Excel, and CSV sources by staging in Amazon S3, automating AWS Glue ETL jobs to transform and load into AWS Redshift, ensuring data governance and quality.</li>
+                            <li><strong>Reporting Automation:</strong> Automated 8+ sales performance and revenue reports using SQL Server and Microsoft Report Builder, eliminating 30+ hours of manual reporting per week.</li>
+                            <li><strong>Data Quality:</strong> Performed data validation checks and supported data quality initiatives by reconciling logistics records using Excel (SUMIFS, COUNTIFS, LOOKUPS) and SQL, ensuring governance standards were met.</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-        <section id="three" class="main style1 special">
-                <div class="container">
-                    <header class="major">
-                        <h2>My Projects</h2>
-                    </header>
-                    <div class="row gtr-150">
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/microsoft-azure-logo.png" alt="Azure Data Analytics" /></span>
-                            <h3>Adventure Works Data Analytics</h3> <p style="font-size: 0.9em;">Tech: Azure, Databricks, PowerBI</p>
-                            <p>Built a full-stack data pipeline in Azure, integrating API data using Azure Data Factory, transforming raw data through bronze and silver layers with PySpark in Databricks, and delivering a scalable data warehousing solution in Azure Synapse Analytics integrated with Power BI for enterprise-grade analytics and visualization.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Azure-End-to-End-Project" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/heart.jpg" alt="Heart Diseases Classification" /></span>
-                            <h3>Heart Diseases Classification Using Machine Learning</h3> <p style="font-size: 0.9em;">Tech: Python, Machine Learning</p>
-                            <p>Designed and deployed a machine learning pipeline in Python to classify heart disease from 1,768+ patient records, applying EDA (Numpy & Pandas), feature engineering, and cross-validated Random Forest models that achieved 85% accuracy, supporting data-driven healthcare insights.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Heart-Diseases-Classification" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/Data-Warehouse.png" alt="SQL Server DW" /></span>
-                            <h3>SQL Server Data Warehouse Implementation</h3> <p style="font-size: 0.9em;">Tech: SQL, SSIS</p>
-                            <p>Implemented a modern SQL Server Data Warehouse by developing ETL pipelines with T-SQL and SSIS (batch processing, stored procedures, full-load ingestion), designing Medallion Architecture (Bronze, Silver, Gold) with star schema modeling, and optimizing performance using views, indexing, and query tuning for scalable analytics.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/sql-data-warehouse-project" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-hospital"></span></div>
-                            <h3>Healthcare Financial & Clinical Operations Dashboard</h3> <p style="font-size: 0.9em;">Tech: Python, Power Query, DAX, Power BI</p>
-                            <p>End-to-end analytics solution transforming synthetic patient data into a 5-page executive Power BI dashboard, built on a 12-table star schema with 50+ DAX measures for financial and clinical operations insights.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Healthcare-Financial-Clinical-Operations-Dashboard" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-credit-card"></span></div>
-                            <h3>Credit Risk Modelling Using Machine Learning</h3> <p style="font-size: 0.9em;">Tech: Python, XGBoost, LightGBM</p>
-                            <p>Built a machine learning pipeline predicting credit card default risk on the American Express dataset, benchmarking 7 models with WOE/IV feature selection and SMOTE resampling; XGBoost achieved 97.3% accuracy and a 0.92 AUC.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Credit-Risk-Modelling-Using-Machine-Learning" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-file-invoice-dollar"></span></div>
-                            <h3>Forecasting Medical Insurance Cost Using Machine Learning</h3> <p style="font-size: 0.9em;">Tech: Python, Scikit-learn</p>
-                            <p>Built a Gradient Boosting Machine model to predict individual medical insurance costs from demographic and health factors, with feature engineering and normalization to improve prediction accuracy.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Forecasting-Medical-Insurance-Cost-Using-Machine-Learning-" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-chart-line"></span></div>
-                            <h3>Retail Demand Forecasting: Time Series Analysis</h3> <p style="font-size: 0.9em;">Tech: Python, SARIMA, Prophet</p>
-                            <p>Built time series forecasting models (SARIMA, Facebook Prophet) on 9,994 superstore orders to generate monthly demand forecasts with confidence intervals for inventory and procurement planning.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Retail-Demand-Forecasting-Time-Series-Analysis-" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-boxes"></span></div>
-                            <h3>Supply Chain Analytics</h3> <p style="font-size: 0.9em;">Tech: Python, Tableau</p>
-                            <p>Analyzed order, inventory, and fulfillment data for a retail operation to identify operational inefficiencies, delivering an interactive 5-view Tableau dashboard on inventory and shipment performance.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Supply-Chain-Analytics" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-truck"></span></div>
-                            <h3>Transportation & Logistics Analytics</h3> <p style="font-size: 0.9em;">Tech: Python, Power BI</p>
-                            <p>Analyzed 4,000+ shipment bookings across Indian logistics operations to identify delivery delays and bottlenecks, delivering a 3-page Power BI dashboard on shipment, supplier, and customer performance.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Transportation-Logistics-Analytics" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-plane"></span></div>
-                            <h3>Frontier Airlines Operational Analytics</h3> <p style="font-size: 0.9em;">Tech: Python, Power BI</p>
-                            <p>Built a Python ETL pipeline transforming 26 years of BTS Form 41 airline regulatory filings into a star-schema data model, powering interactive Power BI dashboards with DAX measures.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Frontier-Airlines-Operational-Analytics" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-bullhorn"></span></div>
-                            <h3>Marketing Analytics BI Dashboard</h3> <p style="font-size: 0.9em;">Tech: Power BI</p>
-                            <p>Built a Power BI dashboard analyzing marketing campaign data from 2,240 customers for the Maven Analytics Challenge to identify top-performing campaigns, products, and channels.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Marketing-Analytics-BI-Dashboard-" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-users"></span></div>
-                            <h3>HR Analytics Dashboard</h3> <p style="font-size: 0.9em;">Tech: Power BI, Excel</p>
-                            <p>Power BI dashboard visualizing employee attendance trends from 2022-2023 attendance records.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/HR-Analytics-Dashboard" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-store"></span></div>
-                            <h3>SuperStore Sales Analytics</h3> <p style="font-size: 0.9em;">Tech: Microsoft Excel</p>
-                            <p>Interactive Excel BI dashboard analyzing ~10,000 sales transactions (2014-2017) using PivotTables, slicers, and dynamic formulas to track revenue, customer profitability, and regional performance.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/SuperStore-Sales-Analytics" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-coffee"></span></div>
-                            <h3>Coffee Sales Dashboard</h3> <p style="font-size: 0.9em;">Tech: Microsoft Excel</p>
-                            <p>Excel-based dashboard analyzing coffee order data to track sales performance.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Coffee-Sales-Dashboard" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-medal"></span></div>
-                            <h3>Tokyo Olympics Azure Project</h3> <p style="font-size: 0.9em;">Tech: Azure</p>
-                            <p>Azure data engineering project processing Tokyo Olympics athlete, coach, and medal datasets into an analysis-ready pipeline.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Tokyo-Olympics-Azure-Project" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/ICC-T20-World-Cup-2022-Trophy.png" alt="T20 Cricket World Cup Analysis" /></span>
-                            <h3>T20 Cricket World Cup Analysis 2022</h3> <p style="font-size: 0.9em;">Tech: Python, Power BI</p>
-                            <p>Scraped 2022 T20 World Cup player statistics with Beautiful Soup and built interactive Power BI visualizations to analyze player and team performance.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/T20-Cricket-World-Cup-Analysis-2022" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/train.jpg" alt="Maven Rail Challenge" /></span>
-                            <h3>Maven Rail Challenge</h3> <p style="font-size: 0.9em;">Tech: Power BI, DAX</p>
-                            <p>Built a Power BI dashboard for National Rail analyzing passenger train operations across England, Scotland, and Wales to examine route popularity, revenue, and travel patterns.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Maven-Rail-Challenge" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-parking"></span></div>
-                            <h3>University of Kentucky HealthCare Parking Project</h3> <p style="font-size: 0.9em;">Tech: SQL, Database Design</p>
-                            <p>Database design project for a UK HealthCare parking system, including SQL implementation, ER modeling, and project documentation.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/University-of-Kentucky-HealthCare-Parking-Project" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-film"></span></div>
-                            <h3>Netflix Analysis using dbt</h3> <p style="font-size: 0.9em;">Tech: dbt, SQL</p>
-                            <p>Data modeling project analyzing Netflix content data using dbt and SQL transformations to build clean, analysis-ready tables.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Netflix-Analysis-DBT" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/quora.webp" alt="NLP Quora Question Pairs" /></span>
-                            <h3>NLP: Quora Question Pairs</h3> <p style="font-size: 0.9em;">Tech: Python, NLP</p>
-                            <p>NLP project detecting semantically duplicate question pairs from the Kaggle Quora dataset using fuzzy string matching techniques.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/NLP-Quora-Question-Pairs" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/heart-attack-concept.jpg" alt="Heart Disease Risk Classifier" /></span>
-                            <h3>Heart Disease Risk Classifier</h3> <p style="font-size: 0.9em;">Tech: Python, Scikit-learn</p>
-                            <p>Machine learning classifier predicting heart disease risk from patient health metrics, built as an IS 594 Project Management coursework submission.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/heart-diseases-project" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/yt.jpg" alt="" /></span>
-                            <h3>YouTube Data Analysis using AWS</h3> <p style="font-size: 0.9em;">Tech: AWS, PySpark</p>
-                            <p>Cloud-based data pipeline ingesting and transforming YouTube trending video statistics using AWS S3, Glue, Lambda, and Athena, with PySpark processing and QuickSight visualization.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/Youtube-Data-Analysis---Data-Engineering-Project" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <div style="text-align: center;"><span class="icon solid major fa-shopping-cart"></span></div>
-                            <h3>IPD: E-Commerce Website</h3> <p style="font-size: 0.9em;">Tech: HTML, CSS</p>
-                            <p>Front-end e-commerce website with multiple product listing and detail pages.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/IPD" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/wind.jpg" alt="" /></span>
-                            <h3>EcoWind: Smart Energy Forecasting & Optimization</h3> <p style="font-size: 0.9em;">Tech: Python, PyTorch, AWS SageMaker</p>
-                            <p>Machine learning system forecasting optimal wind turbine yaw angles and dynamically adjusting turbine settings, increasing wind farm power output by an average of 7.4% with 95% prediction accuracy.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/EcoWind" class="button">Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <span class="image fit"><img src="images/project-2-2.png" alt="" /></span>
-                            <h3>Virtual Try-on: Real-Time Clothes Try-On with Computer Vision</h3> <p style="font-size: 0.9em;">Tech: OpenCV, Flask</p>
-                            <p>Real-time virtual try-on application using OpenCV and Flask, applying Haar Cascade face detection and body measurement analysis to overlay clothing onto a live webcam feed.</p>
-                            <ul class="actions special">
-                                <li><a href="https://github.com/sarth-1411/opencv-virtual-tryon" class="button">Github</a></li>
-                            </ul>
-                        </div>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">BI dashboards, data engineering pipelines and machine learning models, all available on GitHub.</p>
+            </div>
+
+            <div class="project-filters" role="group" aria-label="Filter projects">
+                <button class="project-filter active" data-filter="all" aria-pressed="true">All</button>
+                <button class="project-filter" data-filter="bi" aria-pressed="false">BI &amp; Dashboards</button>
+                <button class="project-filter" data-filter="de" aria-pressed="false">Data Engineering</button>
+                <button class="project-filter" data-filter="ml" aria-pressed="false">Machine Learning</button>
+                <button class="project-filter" data-filter="web" aria-pressed="false">Apps &amp; Web</button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-category="de">
+                    <div class="project-media contain"><img src="images/microsoft-azure-logo.png" alt="Microsoft Azure" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>Adventure Works Data Analytics</h3>
+                        <ul class="project-tags"><li>Azure</li><li>Databricks</li><li>Power BI</li></ul>
+                        <p>Built a full-stack data pipeline in Azure, integrating API data using Azure Data Factory, transforming raw data through bronze and silver layers with PySpark in Databricks, and delivering a scalable data warehousing solution in Azure Synapse Analytics integrated with Power BI for enterprise-grade analytics and visualization.</p>
+                        <a href="https://github.com/sarth-1411/Azure-End-to-End-Project" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media"><img src="images/heart.jpg" alt="Hands holding a red heart" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>Heart Diseases Classification Using Machine Learning</h3>
+                        <ul class="project-tags"><li>Python</li><li>Machine Learning</li></ul>
+                        <p>Designed and deployed a machine learning pipeline in Python to classify heart disease from 1,768+ patient records, applying EDA (Numpy &amp; Pandas), feature engineering, and cross-validated Random Forest models that achieved 85% accuracy, supporting data-driven healthcare insights.</p>
+                        <a href="https://github.com/sarth-1411/Heart-Diseases-Classification" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="de">
+                    <div class="project-media contain"><img src="images/Data-Warehouse.png" alt="Data warehouse" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>SQL Server Data Warehouse Implementation</h3>
+                        <ul class="project-tags"><li>SQL</li><li>SSIS</li></ul>
+                        <p>Implemented a modern SQL Server Data Warehouse by developing ETL pipelines with T-SQL and SSIS (batch processing, stored procedures, full-load ingestion), designing Medallion Architecture (Bronze, Silver, Gold) with star schema modeling, and optimizing performance using views, indexing, and query tuning for scalable analytics.</p>
+                        <a href="https://github.com/sarth-1411/sql-data-warehouse-project" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">🏥</div>
+                    <div class="project-body">
+                        <h3>Healthcare Financial &amp; Clinical Operations Dashboard</h3>
+                        <ul class="project-tags"><li>Python</li><li>Power Query</li><li>DAX</li><li>Power BI</li></ul>
+                        <p>End-to-end analytics solution transforming synthetic patient data into a 5-page executive Power BI dashboard, built on a 12-table star schema with 50+ DAX measures for financial and clinical operations insights.</p>
+                        <a href="https://github.com/sarth-1411/Healthcare-Financial-Clinical-Operations-Dashboard" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media" aria-hidden="true">💳</div>
+                    <div class="project-body">
+                        <h3>Credit Risk Modelling Using Machine Learning</h3>
+                        <ul class="project-tags"><li>Python</li><li>XGBoost</li><li>LightGBM</li></ul>
+                        <p>Built a machine learning pipeline predicting credit card default risk on the American Express dataset, benchmarking 7 models with WOE/IV feature selection and SMOTE resampling; XGBoost achieved 97.3% accuracy and a 0.92 AUC.</p>
+                        <a href="https://github.com/sarth-1411/Credit-Risk-Modelling-Using-Machine-Learning" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media" aria-hidden="true">🧾</div>
+                    <div class="project-body">
+                        <h3>Forecasting Medical Insurance Cost Using Machine Learning</h3>
+                        <ul class="project-tags"><li>Python</li><li>Scikit-learn</li></ul>
+                        <p>Built a Gradient Boosting Machine model to predict individual medical insurance costs from demographic and health factors, with feature engineering and normalization to improve prediction accuracy.</p>
+                        <a href="https://github.com/sarth-1411/Forecasting-Medical-Insurance-Cost-Using-Machine-Learning-" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media" aria-hidden="true">📈</div>
+                    <div class="project-body">
+                        <h3>Retail Demand Forecasting: Time Series Analysis</h3>
+                        <ul class="project-tags"><li>Python</li><li>SARIMA</li><li>Prophet</li></ul>
+                        <p>Built time series forecasting models (SARIMA, Facebook Prophet) on 9,994 superstore orders to generate monthly demand forecasts with confidence intervals for inventory and procurement planning.</p>
+                        <a href="https://github.com/sarth-1411/Retail-Demand-Forecasting-Time-Series-Analysis-" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">📦</div>
+                    <div class="project-body">
+                        <h3>Supply Chain Analytics</h3>
+                        <ul class="project-tags"><li>Python</li><li>Tableau</li></ul>
+                        <p>Analyzed order, inventory, and fulfillment data for a retail operation to identify operational inefficiencies, delivering an interactive 5-view Tableau dashboard on inventory and shipment performance.</p>
+                        <a href="https://github.com/sarth-1411/Supply-Chain-Analytics" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">🚚</div>
+                    <div class="project-body">
+                        <h3>Transportation &amp; Logistics Analytics</h3>
+                        <ul class="project-tags"><li>Python</li><li>Power BI</li></ul>
+                        <p>Analyzed 4,000+ shipment bookings across Indian logistics operations to identify delivery delays and bottlenecks, delivering a 3-page Power BI dashboard on shipment, supplier, and customer performance.</p>
+                        <a href="https://github.com/sarth-1411/Transportation-Logistics-Analytics" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">✈️</div>
+                    <div class="project-body">
+                        <h3>Frontier Airlines Operational Analytics</h3>
+                        <ul class="project-tags"><li>Python</li><li>Power BI</li></ul>
+                        <p>Built a Python ETL pipeline transforming 26 years of BTS Form 41 airline regulatory filings into a star-schema data model, powering interactive Power BI dashboards with DAX measures.</p>
+                        <a href="https://github.com/sarth-1411/Frontier-Airlines-Operational-Analytics" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">📣</div>
+                    <div class="project-body">
+                        <h3>Marketing Analytics BI Dashboard</h3>
+                        <ul class="project-tags"><li>Power BI</li></ul>
+                        <p>Built a Power BI dashboard analyzing marketing campaign data from 2,240 customers for the Maven Analytics Challenge to identify top-performing campaigns, products, and channels.</p>
+                        <a href="https://github.com/sarth-1411/Marketing-Analytics-BI-Dashboard-" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">👥</div>
+                    <div class="project-body">
+                        <h3>HR Analytics Dashboard</h3>
+                        <ul class="project-tags"><li>Power BI</li><li>Excel</li></ul>
+                        <p>Power BI dashboard visualizing employee attendance trends from 2022-2023 attendance records.</p>
+                        <a href="https://github.com/sarth-1411/HR-Analytics-Dashboard" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">🏬</div>
+                    <div class="project-body">
+                        <h3>SuperStore Sales Analytics</h3>
+                        <ul class="project-tags"><li>Microsoft Excel</li></ul>
+                        <p>Interactive Excel BI dashboard analyzing ~10,000 sales transactions (2014-2017) using PivotTables, slicers, and dynamic formulas to track revenue, customer profitability, and regional performance.</p>
+                        <a href="https://github.com/sarth-1411/SuperStore-Sales-Analytics" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media" aria-hidden="true">☕</div>
+                    <div class="project-body">
+                        <h3>Coffee Sales Dashboard</h3>
+                        <ul class="project-tags"><li>Microsoft Excel</li></ul>
+                        <p>Excel-based dashboard analyzing coffee order data to track sales performance.</p>
+                        <a href="https://github.com/sarth-1411/Coffee-Sales-Dashboard" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="de">
+                    <div class="project-media" aria-hidden="true">🏅</div>
+                    <div class="project-body">
+                        <h3>Tokyo Olympics Azure Project</h3>
+                        <ul class="project-tags"><li>Azure</li></ul>
+                        <p>Azure data engineering project processing Tokyo Olympics athlete, coach, and medal datasets into an analysis-ready pipeline.</p>
+                        <a href="https://github.com/sarth-1411/Tokyo-Olympics-Azure-Project" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media"><img src="images/cards/t20-world-cup.jpg" alt="ICC T20 World Cup 2022 trophy" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>T20 Cricket World Cup Analysis 2022</h3>
+                        <ul class="project-tags"><li>Python</li><li>Power BI</li></ul>
+                        <p>Scraped 2022 T20 World Cup player statistics with Beautiful Soup and built interactive Power BI visualizations to analyze player and team performance.</p>
+                        <a href="https://github.com/sarth-1411/T20-Cricket-World-Cup-Analysis-2022" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bi">
+                    <div class="project-media"><img src="images/train.jpg" alt="Passenger train at a station" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>Maven Rail Challenge</h3>
+                        <ul class="project-tags"><li>Power BI</li><li>DAX</li></ul>
+                        <p>Built a Power BI dashboard for National Rail analyzing passenger train operations across England, Scotland, and Wales to examine route popularity, revenue, and travel patterns.</p>
+                        <a href="https://github.com/sarth-1411/Maven-Rail-Challenge" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="de">
+                    <div class="project-media" aria-hidden="true">🅿️</div>
+                    <div class="project-body">
+                        <h3>University of Kentucky HealthCare Parking Project</h3>
+                        <ul class="project-tags"><li>SQL</li><li>Database Design</li></ul>
+                        <p>Database design project for a UK HealthCare parking system, including SQL implementation, ER modeling, and project documentation.</p>
+                        <a href="https://github.com/sarth-1411/University-of-Kentucky-HealthCare-Parking-Project" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="de">
+                    <div class="project-media" aria-hidden="true">🎬</div>
+                    <div class="project-body">
+                        <h3>Netflix Analysis using dbt</h3>
+                        <ul class="project-tags"><li>dbt</li><li>SQL</li></ul>
+                        <p>Data modeling project analyzing Netflix content data using dbt and SQL transformations to build clean, analysis-ready tables.</p>
+                        <a href="https://github.com/sarth-1411/Netflix-Analysis-DBT" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media"><img src="images/quora.webp" alt="Quora" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>NLP: Quora Question Pairs</h3>
+                        <ul class="project-tags"><li>Python</li><li>NLP</li></ul>
+                        <p>NLP project detecting semantically duplicate question pairs from the Kaggle Quora dataset using fuzzy string matching techniques.</p>
+                        <a href="https://github.com/sarth-1411/NLP-Quora-Question-Pairs" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media"><img src="images/heart-attack-concept.jpg" alt="Illustration of a heart inside the chest" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>Heart Disease Risk Classifier</h3>
+                        <ul class="project-tags"><li>Python</li><li>Scikit-learn</li></ul>
+                        <p>Machine learning classifier predicting heart disease risk from patient health metrics, built as an IS 594 Project Management coursework submission.</p>
+                        <a href="https://github.com/sarth-1411/heart-diseases-project" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="de">
+                    <div class="project-media contain"><img src="images/yt.jpg" alt="YouTube" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>YouTube Data Analysis using AWS</h3>
+                        <ul class="project-tags"><li>AWS</li><li>PySpark</li></ul>
+                        <p>Cloud-based data pipeline ingesting and transforming YouTube trending video statistics using AWS S3, Glue, Lambda, and Athena, with PySpark processing and QuickSight visualization.</p>
+                        <a href="https://github.com/sarth-1411/Youtube-Data-Analysis---Data-Engineering-Project" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-media" aria-hidden="true">🛒</div>
+                    <div class="project-body">
+                        <h3>IPD: E-Commerce Website</h3>
+                        <ul class="project-tags"><li>HTML</li><li>CSS</li></ul>
+                        <p>Front-end e-commerce website with multiple product listing and detail pages.</p>
+                        <a href="https://github.com/sarth-1411/IPD" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ml">
+                    <div class="project-media"><img src="images/cards/ecowind.jpg" alt="Wind turbines on a ridge at sunset" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>EcoWind: Smart Energy Forecasting &amp; Optimization</h3>
+                        <ul class="project-tags"><li>Python</li><li>PyTorch</li><li>AWS SageMaker</li></ul>
+                        <p>Machine learning system forecasting optimal wind turbine yaw angles and dynamically adjusting turbine settings, increasing wind farm power output by an average of 7.4% with 95% prediction accuracy.</p>
+                        <a href="https://github.com/sarth-1411/EcoWind" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-media"><img src="images/project-2-2.png" alt="Virtual fitting room with a smart mirror" loading="lazy"></div>
+                    <div class="project-body">
+                        <h3>Virtual Try-on: Real-Time Clothes Try-On with Computer Vision</h3>
+                        <ul class="project-tags"><li>OpenCV</li><li>Flask</li></ul>
+                        <p>Real-time virtual try-on application using OpenCV and Flask, applying Haar Cascade face detection and body measurement analysis to overlay clothing onto a live webcam feed.</p>
+                        <a href="https://github.com/sarth-1411/opencv-virtual-tryon" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Skills Section -->
+    <section id="skills" class="section about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Education &amp; Skills</h2>
+                <p class="section-subtitle">The academic foundation, certifications and technical toolkit behind the work.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-timeline">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">University of Illinois Urbana-Champaign</div>
+                        <div class="timeline-title">Master of Science in Information Management</div>
+                        <div class="timeline-description">Courses: Information Consulting, Data Warehousing and Business Intelligence, Data, Models and Information</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">University of Mumbai, India</div>
+                        <div class="timeline-title">Bachelor of Technology in Computer Engineering</div>
+                        <div class="timeline-description">Courses: Advance Database Management Systems, Data Mining, Big Data Analytics, Machine Learning, Artificial Intelligence</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">Certification</div>
+                        <div class="timeline-title">Microsoft Power BI Desktop for Business Intelligence</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">Certification</div>
+                        <div class="timeline-title">Data Visualisation: Empowering Business with Effective Insights</div>
                     </div>
                 </div>
-            </section>
 
-        <section id="footer">
-                <header class="major">
-                    <h3>Get in touch</h3>
-                    <h2>Contact Me</h2>
-                </header>
-                <ul class="icons">
-                    <li><a href="mailto:sarthp870@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> <li><a href="https://linkedin.com/in/sarth-patel-s1411" class="fab fa-linkedin fa-lg"><span class="label"></span></a></li>
-                    <li><a href="https://github.com/sarth-1411" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                </ul>
-            </section>
+                <div class="about-tech">
+                    <div class="tech-card">
+                        <div class="tech-icon">📊</div>
+                        <div class="tech-title">BI &amp; Visualization</div>
+                        <ul class="tech-tags">
+                            <li>Power BI</li>
+                            <li>Tableau</li>
+                            <li>Qlik</li>
+                            <li>Microsoft Excel</li>
+                            <li>PowerApps</li>
+                            <li>Alteryx</li>
+                        </ul>
+                    </div>
 
-        <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
+                    <div class="tech-card">
+                        <div class="tech-icon">🛠️</div>
+                        <div class="tech-title">Data Engineering &amp; Cloud</div>
+                        <ul class="tech-tags">
+                            <li>SQL</li>
+                            <li>Python</li>
+                            <li>Microsoft Fabric</li>
+                            <li>Azure (Databricks, Data Factory, Form Recognizer)</li>
+                            <li>Snowflake</li>
+                            <li>Dbt</li>
+                            <li>SAS</li>
+                            <li>OracleEBS</li>
+                        </ul>
+                    </div>
 
-    </body>
+                    <div class="tech-card">
+                        <div class="tech-icon">🤝</div>
+                        <div class="tech-title">Delivery &amp; Methods</div>
+                        <ul class="tech-tags">
+                            <li>Statistics</li>
+                            <li>SDLC</li>
+                            <li>Agile/Scrum</li>
+                            <li>Jira</li>
+                            <li>Confluence</li>
+                            <li>Technical Documentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-futuristic">
+                <div class="stat-futuristic">
+                    <h4>20M+</h4>
+                    <p>Records Processed</p>
+                </div>
+                <div class="stat-futuristic">
+                    <h4>30+ hrs</h4>
+                    <p>Manual Reporting Saved Weekly</p>
+                </div>
+                <div class="stat-futuristic">
+                    <h4>$50K+</h4>
+                    <p>Supply Chain Savings Identified</p>
+                </div>
+                <div class="stat-futuristic">
+                    <h4>25</h4>
+                    <p>Projects on GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have a question, an opportunity or a project in mind? I'd love to hear from you.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm" data-to="sarthp870@gmail.com">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" autocomplete="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me a little about what you have in mind..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <p class="form-note">Opens your email app with the message ready to send.</p>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <a class="contact-item" href="mailto:sarthp870@gmail.com">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>sarthp870@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a class="contact-item" href="https://linkedin.com/in/sarth-patel-s1411" target="_blank" rel="noopener">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/sarth-patel-s1411</p>
+                        </div>
+                    </a>
+
+                    <a class="contact-item" href="https://github.com/sarth-1411" target="_blank" rel="noopener">
+                        <div class="contact-icon">💻</div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/sarth-1411</p>
+                        </div>
+                    </a>
+
+                    <a class="contact-item" href="assets/SARTH%20PATEL%20RESUME.pdf" target="_blank" rel="noopener">
+                        <div class="contact-icon">📄</div>
+                        <div class="contact-details">
+                            <h4>Resume</h4>
+                            <p>Download my CV (PDF)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#FF6B6B"/>
+                                    <stop offset="100%" style="stop-color:#7FFFD4"/>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="45" fill="url(#footerLogoGradient)" opacity="0.1"/>
+                            <path d="M20 60 L35 40 L50 55 L65 35 L80 50" stroke="url(#footerLogoGradient)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="35" cy="40" r="3" fill="url(#footerLogoGradient)"/>
+                            <circle cx="50" cy="55" r="3" fill="url(#footerLogoGradient)"/>
+                            <circle cx="65" cy="35" r="3" fill="url(#footerLogoGradient)"/>
+                            <rect x="25" y="65" width="50" height="15" rx="7" fill="url(#footerLogoGradient)" opacity="0.3"/>
+                        </svg>
+                        <span class="footer-logo-text">Sarth Patel</span>
+                    </div>
+                    <p class="footer-description">Data Analytics Professional delivering data-driven insights and technical solutions across the supply chain, retail, and finance sectors.</p>
+                    <div class="footer-social">
+                        <a href="mailto:sarthp870@gmail.com" class="social-link" aria-label="Email">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 8.3L4.3 7H4v1l8 6.4L20 8V7h-.3z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/sarth-patel-s1411" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3zM9.5 9.75h3.8v1.6h.05c.53-1 1.83-1.85 3.65-1.85 3.9 0 4.5 2.4 4.5 5.6v6.15h-4V15.9c0-1.3-.03-2.95-1.85-2.95-1.85 0-2.15 1.4-2.15 2.85v5.45h-4z"/></svg>
+                        </a>
+                        <a href="https://github.com/sarth-1411" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.19-1.49 3.16-1.18 3.16-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <div class="footer-links">
+                        <a href="#about" class="footer-link">About Me</a>
+                        <a href="#experience" class="footer-link">Experience</a>
+                        <a href="#projects" class="footer-link">Projects</a>
+                        <a href="#skills" class="footer-link">Education &amp; Skills</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Featured Projects</h4>
+                    <div class="footer-links">
+                        <a href="https://github.com/sarth-1411/Azure-End-to-End-Project" class="footer-link" target="_blank" rel="noopener">Adventure Works Analytics</a>
+                        <a href="https://github.com/sarth-1411/Heart-Diseases-Classification" class="footer-link" target="_blank" rel="noopener">Heart Diseases Classification</a>
+                        <a href="https://github.com/sarth-1411/sql-data-warehouse-project" class="footer-link" target="_blank" rel="noopener">SQL Server Data Warehouse</a>
+                        <a href="https://github.com/sarth-1411/Healthcare-Financial-Clinical-Operations-Dashboard" class="footer-link" target="_blank" rel="noopener">Healthcare Dashboard</a>
+                        <a href="https://github.com/sarth-1411/Credit-Risk-Modelling-Using-Machine-Learning" class="footer-link" target="_blank" rel="noopener">Credit Risk Modelling</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-links">
+                        <a href="mailto:sarthp870@gmail.com" class="footer-link">Email</a>
+                        <a href="https://linkedin.com/in/sarth-patel-s1411" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://github.com/sarth-1411" class="footer-link" target="_blank" rel="noopener">GitHub</a>
+                        <a href="assets/SARTH%20PATEL%20RESUME.pdf" class="footer-link" target="_blank" rel="noopener">Download CV</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2026 Sarth Patel. All rights reserved.
+                </div>
+                <div class="footer-credits">
+                    Designed by <a href="https://templatemo.com" target="_blank" rel="noopener nofollow">TemplateMo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="templatemo-sleeky-scripts.js"></script>
+</body>
 </html>
